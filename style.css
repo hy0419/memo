@@ -1,12 +1,38 @@
 @media screen and (min-width:0px) {
     /*基本スマホ用*/
-    #ta{
-        width: 400px;
-        height: 150px;
+    h1 {
+        color: red;
+        text-align: center;
+    }
+
+    #ta {
+        width: 300px;
+        height: 500px;
+
+        /*テキストエリア*/
+    }
+    body{
+        text-align: center;
+        background-color: #000000;
+    }
+    p{
+        text-align:left;
+        color:#ffffff;
+    }
+    #n{
+        text-align:left;
+        color:#ffffff;
+
     }
 }
 
-
 @media screen and (min-width:1024px){
     /*パソコン用*/
+
+    #ta {
+        width: 800px;
+        height: 700px;
+        font-size: large;
+        /*テキストエリア*/
+    }
 }

@@ -3,7 +3,7 @@ require_once __DIR__."/../key/DBaccess.php";
 
 $input=$_POST['tea'];
 
-echo $input;
+echo "<div id='n'>".$input."</div>";
 $sql = "UPDATE memo SET text=:text WHERE id=1";
 $stm = getDB()->prepare($sql);
 $stm->bindValue(":text",$input);
@@ -18,7 +18,7 @@ $stm->execute();
     <link rel ="stylesheet" href="style.css">
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 
-    <title>Title</title>
+    <title>保存</title>
 </head>
 <body>
 <p>保存しました</p>

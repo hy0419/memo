@@ -29,7 +29,7 @@ foreach ($result as $item){
 <h1>メモ帳</h1>
 <form method="post" action="result.php">
 <div>
-<button type="submit">保存</button>
+<button id="b" type="submit">保存</button>
 </div>
 <div>
     <textarea placeholder="" id="ta" name="tea"><?php echo $text; ?></textarea>
