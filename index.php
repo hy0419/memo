@@ -21,7 +21,8 @@ foreach ($result as $item){
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel ="stylesheet" href="style.css">
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-
+    <script type="text/javascript"
+            src="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
     <title>メモ帳</title>
 </head>
 <body>
