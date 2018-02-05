@@ -39,9 +39,3 @@ foreach ($result as $item){
 </body>
 </html>
 <script src="js.js"></script>
-<script>
-//    var text="<?php //echo $text; ?>//";
-//    $("#ta").val(text);
-
-
-</script>
